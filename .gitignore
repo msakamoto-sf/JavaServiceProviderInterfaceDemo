@@ -1,7 +1,11 @@
+*~
+*.swp
 *.class
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
+*/dist/
+*/build/
 
 # Package Files #
 *.jar
