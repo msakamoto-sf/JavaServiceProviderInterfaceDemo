@@ -39,7 +39,7 @@ import java.util.List;
 public class BarSearch2 implements Search {
     @Override
     public String getProviderName() {
-        return "Foo Search2 Provider";
+        return "Bar Search2 Provider";
     }
     @Override
     public List<String> search(String keyword) {

@@ -52,7 +52,7 @@ run:
      [java] Bar Search 1
      [java] Bar Search 2
      [java] Bar Search 3
-     [java] Provider Name: Foo Search2 Provider
+     [java] Provider Name: Bar Search2 Provider
      [java] Bar2 Search 1
      [java] Bar2 Search 2
      [java] Bar2 Search 3
