@@ -23,6 +23,7 @@ This demo app include 6 tiny jar projects.
   * Implementation for CloudService.
 6. DemoApp
   * client app for CloudService and SearchService.
+  * Implementations self providers for both CloudService and SearchService.
 
 ### Requirements
 * JDK 1.6 or over
@@ -35,6 +36,9 @@ Run default Ant target.
 ```
 $ ant
 run:
+     [java] Provider Name: My Cloud Provider
+     [java] My Container
+     [java] My Tomcat
      [java] Provider Name: Foo Cloud Provider
      [java] Foo VPC
      [java] Foo VPN
@@ -44,6 +48,9 @@ run:
      [java] Baz Xen Computing
      [java] Baz Security Gateway
      [java] Baz Shared Storage
+     [java] Provider Name: My Search Provider
+     [java] My Search 1
+     [java] My Search 2
      [java] Provider Name: Foo Search Provider
      [java] Foo Search 1
      [java] Foo Search 2
