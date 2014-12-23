@@ -51,6 +51,10 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <javac srcdir="src" includeantruntime="false" destdir="build" fork="yes">
         <classpath refid="CLASSPATH"/>
     </javac>
+    <mkdir dir="build/META-INF"/>
+    <mkdir dir="build/META-INF/services"/>
+    <copy file="src/META-INF/services/spidemo.cloud.spi.Cloud" todir="build/META-INF/services"/>
+    <copy file="src/META-INF/services/spidemo.search.spi.Search" todir="build/META-INF/services"/>
   </target>
 
   <target name="jar" depends="compile">
